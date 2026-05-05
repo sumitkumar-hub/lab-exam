@@ -9,7 +9,7 @@ const students = [
   { name: "John", marks: 60 }
 ];
 
-// Route to display table
+
 app.get('/', (req, res) => {
 
   let table = `
